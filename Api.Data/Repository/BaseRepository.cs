@@ -35,7 +35,7 @@ namespace Api.Data.Repository
             try
             {
                 var entityResult = await _dataset.SingleOrDefaultAsync(x => x.Id.Equals(id));
-                if (entityResult != null)
+                if (entityResult == null)
                 {
                     return false;
                 }

@@ -1520,16 +1520,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Api.CrossCutting/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Api.CrossCutting.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Api.CrossCutting.dll": {}
-        }
-      },
       "Api.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5824,11 +5814,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Api.CrossCutting/1.0.0": {
-      "type": "project",
-      "path": "../Api.CrossCutting/Api.CrossCutting.csproj",
-      "msbuildProject": "../Api.CrossCutting/Api.CrossCutting.csproj"
-    },
     "Api.Data/1.0.0": {
       "type": "project",
       "path": "../Api.Data/Api.Data.csproj",
@@ -5842,7 +5827,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Api.CrossCutting >= 1.0.0",
       "Api.Data >= 1.0.0",
       "Api.Domain >= 1.0.0"
     ]
@@ -5878,9 +5862,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Projects\\CursoApiNetCore\\src\\Api.CrossCutting\\Api.CrossCutting.csproj": {
-              "projectPath": "C:\\Projects\\CursoApiNetCore\\src\\Api.CrossCutting\\Api.CrossCutting.csproj"
-            },
             "C:\\Projects\\CursoApiNetCore\\src\\Api.Data\\Api.Data.csproj": {
               "projectPath": "C:\\Projects\\CursoApiNetCore\\src\\Api.Data\\Api.Data.csproj"
             },

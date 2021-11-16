@@ -106,7 +106,17 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projects\\CursoApiNetCore\\src\\Api.Data\\Api.Data.csproj": {
+                "projectPath": "C:\\Projects\\CursoApiNetCore\\src\\Api.Data\\Api.Data.csproj"
+              },
+              "C:\\Projects\\CursoApiNetCore\\src\\Api.Domain\\Api.Domain.csproj": {
+                "projectPath": "C:\\Projects\\CursoApiNetCore\\src\\Api.Domain\\Api.Domain.csproj"
+              },
+              "C:\\Projects\\CursoApiNetCore\\src\\Api.Service\\Api.Service.csproj": {
+                "projectPath": "C:\\Projects\\CursoApiNetCore\\src\\Api.Service\\Api.Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -118,6 +128,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -296,9 +316,6 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Projects\\CursoApiNetCore\\src\\Api.CrossCutting\\Api.CrossCutting.csproj": {
-                "projectPath": "C:\\Projects\\CursoApiNetCore\\src\\Api.CrossCutting\\Api.CrossCutting.csproj"
-              },
               "C:\\Projects\\CursoApiNetCore\\src\\Api.Data\\Api.Data.csproj": {
                 "projectPath": "C:\\Projects\\CursoApiNetCore\\src\\Api.Data\\Api.Data.csproj"
               },
