@@ -5837,7 +5837,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://devops.mercantil.com.br/Tecnologia_MB/_packaging/MBLib/nuget/v3/index.json": {},
+        "https://devops.mercantil.com.br/Tecnologia_MB/_packaging/PLALib/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -5887,7 +5889,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
