@@ -11,6 +11,8 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
+using Api.CrossCutting.Mappings.DtoToModelProfile;
+using AutoMapper;
 
 namespace Api.Application
 {
@@ -27,6 +29,17 @@ namespace Api.Application
             //dependency injection 
             ConfigureService.ConfigureDependenciesService(services);
             ConfigureRepository.ConfigureDependenciesService(services);
+            
+            #region mapper
+            var config = new AutoMapper.MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile(new DtoToModelProfile());
+                cfg.AddProfile(new EntityToDTOProfile());
+            });
+
+            IMapper mapper = config.CreateMapper();
+            services.AddSingleton(mapper);
+            #endregion
 
             var signinConfigurations = new SigninConfigurations();
             services.AddSingleton(signinConfigurations);

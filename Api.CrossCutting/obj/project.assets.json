@@ -1572,7 +1572,8 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Api.Data": "1.0.0",
-          "Api.Domain": "1.0.0"
+          "Api.Domain": "1.0.0",
+          "AutoMapper": "10.1.1"
         },
         "compile": {
           "bin/placeholder/Api.Service.dll": {}
@@ -5909,6 +5910,7 @@
       "Api.Data >= 1.0.0",
       "Api.Domain >= 1.0.0",
       "Api.Service >= 1.0.0",
+      "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 5.0.0"
     ]
@@ -5968,6 +5970,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[10.1.1, )"
+          },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[8.1.1, )"
@@ -5992,7 +5998,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

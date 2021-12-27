@@ -10,6 +10,7 @@ C:\Projects\CursoApiNetCore\src\Api.Application\bin\Debug\net5.0\Api.Application
 C:\Projects\CursoApiNetCore\src\Api.Application\bin\Debug\net5.0\AutoMapper.dll
 C:\Projects\CursoApiNetCore\src\Api.Application\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Projects\CursoApiNetCore\src\Api.Application\bin\Debug\net5.0\Humanizer.dll
+C:\Projects\CursoApiNetCore\src\Api.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Projects\CursoApiNetCore\src\Api.Application\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Projects\CursoApiNetCore\src\Api.Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Projects\CursoApiNetCore\src\Api.Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -67,4 +68,3 @@ C:\Projects\CursoApiNetCore\src\Api.Application\obj\Debug\net5.0\Api.Application
 C:\Projects\CursoApiNetCore\src\Api.Application\obj\Debug\net5.0\ref\Api.Application.dll
 C:\Projects\CursoApiNetCore\src\Api.Application\obj\Debug\net5.0\Api.Application.pdb
 C:\Projects\CursoApiNetCore\src\Api.Application\obj\Debug\net5.0\Api.Application.genruntimeconfig.cache
-C:\Projects\CursoApiNetCore\src\Api.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
